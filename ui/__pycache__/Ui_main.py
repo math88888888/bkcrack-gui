@@ -203,7 +203,7 @@ class Ui_Form(object):
         self.OffsetInput.setMinimumHeight(35)
         control_layout.addWidget(self.OffsetInput)
 
-        label = QLabel("-p 参数的内容(自动添加")
+        label = QLabel(" -p 参数的内容(自动添加)")
         control_layout.addWidget(label)
         self.PlainTextContent = PlainTextEdit()
         self.PlainTextContent.setMinimumHeight(35)
