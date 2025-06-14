@@ -26,7 +26,6 @@ class CommandThread(QThread):
         self.process = None
         self.temp_file_path = None
         self._is_running = True
-        self.ConvertToHexButton.clicked.connect(self.convert_to_hex)
 
     def run(self):
         self.process = subprocess.Popen(
